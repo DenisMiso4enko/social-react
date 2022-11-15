@@ -1,0 +1,10 @@
+.dialogs {
+    display: flex;
+}
+.dialogs__users {
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+.dialogs__messages {
+
+}

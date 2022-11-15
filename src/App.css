@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+:root {
+  --background-color: rgb(32, 167, 32);
+  --background-color-main: rgb(194, 198, 210);
+}
+
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+.App {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas:
+    "h h"
+    "n c";
+  gap: 10px;
+}
+
+.header {
+  grid-area: h;
+  background-color: var(--background-color);
+}
+.logo {
+  width: 20px;
+}
+
+.nav {
+  grid-area: n;
+  background-color: var(--background-color);
+}
+
+.App__content{
+  grid-area: c;
+  background-color: var(--background-color-main);
+}

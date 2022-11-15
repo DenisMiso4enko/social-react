@@ -1,0 +1,16 @@
+.user {
+  display: flex;
+  gap: 40px;
+}
+.user__avatar {
+}
+.user__avatar-img {
+  width: 200px;
+}
+.user__desc {
+}
+.user__name {
+}
+
+.user__desc p {
+}

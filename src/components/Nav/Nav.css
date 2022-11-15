@@ -1,0 +1,14 @@
+.nav {
+
+}
+.nav__link {
+    text-decoration: none;
+    color: white;
+}
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.nav__link.active {
+    color: #d2a024;
+}

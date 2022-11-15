@@ -1,0 +1,13 @@
+.post {
+    display: flex;
+    gap: 30px;
+
+}
+.post__avatar {
+    width: 80px;
+    border-radius: 50%;
+
+}
+.post__text {
+
+}

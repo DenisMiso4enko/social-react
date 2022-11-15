@@ -1,0 +1,22 @@
+.post-form {
+    padding: 20px;
+}
+.post-form__title {
+}
+.post-form__wrapper {
+}
+.form__create-post {
+    /* display: flex;
+    flex-direction: column;
+    gap: 10px; */
+}
+.form__create-post textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  margin-bottom: 20px;
+}
+.form__create-post button {
+    display: block;
+    margin-left: auto;
+}
